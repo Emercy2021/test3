@@ -264,3 +264,17 @@ if (customData) {
 }
 
 window.onpopstate = windowPopStateHandler;
+
+let dewey = document.getElementById("items2");
+dewey.addEventListener('click', function () {
+    document.getElementById("image").style.borderRadius = "50%" ;
+    }
+);
+
+
+let scrudge = document.getElementById("items3");
+scrudge.addEventListener('click', function () {
+    document.getElementById("image").style.borderRadius = "0%";
+    
+    }
+);
