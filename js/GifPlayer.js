@@ -25,14 +25,6 @@ function GifPlayer(p) {
             {name: '020', min: 15, max: 200},
             {name: '021', min: 15, max: 200},
             {name: '022', min: 15, max: 200},
-            {name: '023', min: 15, max: 200},
-            {name: '024', min: 15, max: 200},
-            {name: '025', min: 15, max: 200},
-            {name: '026', min: 15, max: 200},
-            {name: '027', min: 15, max: 200},
-            {name: '028', min: 15, max: 200},
-            {name: '029', min: 15, max: 200},
-            {name: '030', min: 15, max: 200},
         ]
     ;
     let image,
