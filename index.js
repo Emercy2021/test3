@@ -265,6 +265,12 @@ if (customData) {
 
 window.onpopstate = windowPopStateHandler;
 
+let huey = document.getElementById("items4");
+huey.addEventListener('click', function () {
+    document.getElementById("image").style.borderRadius = "50%" ;
+    }
+);
+
 let dewey = document.getElementById("items2");
 dewey.addEventListener('click', function () {
     document.getElementById("image").style.borderRadius = "50%" ;
